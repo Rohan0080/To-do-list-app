@@ -80,7 +80,7 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
-          _showAddTaskDialog(context); // Call the dialog function with context
+          _showAddTaskDialog(context); 
         },
         child: Icon(Icons.add),
         backgroundColor: Colors.black,
